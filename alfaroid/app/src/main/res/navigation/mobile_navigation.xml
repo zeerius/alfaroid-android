@@ -22,4 +22,10 @@
         android:name="com.example.alfaroid.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_kajian"
+        android:name="com.example.alfaroid.ui.notifications.NotificationsFragment"
+        android:label="@string/title_kajian"
+        tools:layout="@layout/fragment_kajian" />
 </navigation>
