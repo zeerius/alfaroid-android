@@ -28,4 +28,13 @@
         android:name="com.example.alfaroid.ui.syariah.SyariahFragment"
         android:label="@string/title_syariah"
         tools:layout="@layout/fragment_syariah" />
+    <fragment
+        android:id="@+id/calculator2Fragment"
+        android:name="com.example.alfaroid.ui.calculator.Calculator2Fragment"
+        android:label="@string/title_calculator" />
+    <fragment
+        android:id="@+id/calculator3Fragment"
+        android:name="com.example.alfaroid.Calculator3Fragment"
+        android:label="@string/title_calculator"
+        tools:layout="@layout/fragment_calculator3" />
 </navigation>
