@@ -19,4 +19,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_harta"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/text_calculator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/input_style"
+        android:hint="@string/input_harta"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
