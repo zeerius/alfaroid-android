@@ -28,10 +28,10 @@ class SyariahFragment : Fragment() {
         _binding = FragmentSyariahBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSyariah
-        syariahViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
+//        val textView: TextView = binding.textSyariah
+//        syariahViewModel.text.observe(viewLifecycleOwner) {
+//            textView.text = it
+//        }
         return root
     }
 
