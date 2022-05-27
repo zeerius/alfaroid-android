@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">alfaroid</string>
+    <string name="app_name">Al-Faroid</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_kajian">Jadwal Kajian</string>
+    <string name="title_schedule">Jadwal Kajian</string>
+    <string name="title_calculator">Kalkulator</string>
+    <string name="title_syariah">Dasar Syariah</string>
 </resources>

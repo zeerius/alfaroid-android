@@ -12,20 +12,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.alfaroid.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_schedule"
+        android:name="com.example.alfaroid.ui.schedule.SyariahFragment"
+        android:label="@string/title_schedule"
+        tools:layout="@layout/fragment_schedule" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.alfaroid.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_calculator"
+        android:name="com.example.alfaroid.ui.calculator.CalculatorFragment"
+        android:label="@string/title_calculator"
+        tools:layout="@layout/fragment_calculator" />
 
     <fragment
-        android:id="@+id/navigation_kajian"
-        android:name="com.example.alfaroid.ui.notifications.NotificationsFragment"
-        android:label="@string/title_kajian"
-        tools:layout="@layout/fragment_kajian" />
+        android:id="@+id/navigation_syariah"
+        android:name="com.example.alfaroid.ui.syariah.SyariahFragment"
+        android:label="@string/title_syariah"
+        tools:layout="@layout/fragment_syariah" />
 </navigation>

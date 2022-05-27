@@ -1,4 +1,4 @@
-package com.example.alfaroid.ui.notifications
+package com.example.alfaroid.ui.syariah
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.alfaroid.databinding.FragmentNotificationsBinding
+import com.example.alfaroid.databinding.FragmentSyariahBinding
 
-class NotificationsFragment : Fragment() {
+class SyariahFragment : Fragment() {
 
-    private var _binding: FragmentNotificationsBinding? = null
+    private var _binding: FragmentSyariahBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +22,14 @@ class NotificationsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel::class.java)
+        val syariahViewModel =
+            ViewModelProvider(this).get(SyariahViewModel::class.java)
 
-        _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+        _binding = FragmentSyariahBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
-        notificationsViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textSyariah
+        syariahViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
