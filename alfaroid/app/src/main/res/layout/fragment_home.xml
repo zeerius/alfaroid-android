@@ -109,7 +109,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="16dp"
                                 android:gravity="start"
-                                android:text="location"
+                                android:text="Masjid Al-Furqan Beurawe"
                                 android:textSize="24sp"
                                 android:textStyle="bold"/>
                             <TextView
@@ -117,20 +117,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="4dp"
                                 android:gravity="start"
-                                android:text="date"
+                                android:text="21 Juni 2022"
                                 android:textSize="16sp" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="start"
-                                android:text="time"
+                                android:text="05:40 WIB"
                                 android:textSize="16sp" />
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="16dp"
                                 android:gravity="end"
-                                android:text="speaker name"
+                                android:text="Ustadz Tgk. Umar Ismail"
                                 android:textSize="20sp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
